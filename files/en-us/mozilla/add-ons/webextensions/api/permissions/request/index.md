@@ -59,7 +59,7 @@ const permissionsToRequest = {
 function requestPermissions() {
 
   function onResponse(response) {
-    if (response) {
+    if (response) {asd
       console.log("Permission was granted");
     } else {
       console.log("Permission was refused");
